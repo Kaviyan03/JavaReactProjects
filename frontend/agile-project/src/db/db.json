@@ -1,0 +1,160 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Employee Three",
+      "email": "employee3@example.com",
+      "password": "password3",
+      "role": "employee",
+      "id": "4"
+    },
+    {
+      "id": "d0d7",
+      "name": "Employee Four",
+      "email": "employee5@example.com",
+      "password": "1234",
+      "role": "employee"
+    },
+    {
+      "id": "6a02",
+      "name": "Employee Six",
+      "email": "employee6@gexample.com",
+      "password": "password6",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": "3"
+    },
+    {
+      "id": "7de2",
+      "name": "Scrum Team D"
+    },
+    {
+      "id": "c9f9",
+      "name": "Scrum E"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "Done",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "To Do",
+      "scrumId": 3,
+      "assignedTo": 4,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "id": "1d17",
+      "title": "Task 4",
+      "description": "description for task 4",
+      "status": "In Progress",
+      "scrumId": "7de2",
+      "assignedTo": "d0d7",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-17"
+        }
+      ]
+    },
+    {
+      "id": "196d",
+      "title": "Title E",
+      "description": "Description 5",
+      "status": "To Do",
+      "scrumId": "c9f9",
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-17"
+        }
+      ]
+    }
+  ]
+}
